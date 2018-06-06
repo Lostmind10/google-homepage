@@ -120,8 +120,8 @@ header .sign-in:hover {
 
 .button {
     color: #b1b1b1;
-    background-color: #fff;
-    border: 1px solid #fff;
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
     border-radius: 2px;
     cursor: default;
     font-family: arial,sans-serif;
@@ -147,11 +147,13 @@ header .sign-in:hover {
 
 footer {
     width: 100%;
-	position: absolute;
-	bottom: 30px;
-	border-top: 1px solid #e6e6e6;
-	padding-top: 15px;
-	clear: both;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    clear: both;
+    background-color: #f4f4f4;
 }
 
 footer a:link, a:visited, a:active {
